@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	
+    <meta charaset="UTF-8">
+    <meta name="viewport" content="windth-device-width, initial-scale=1.0">
+    <title> Voice search</title>
+    <!--<link ref="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">-->
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="marking.css">
+    <script src="voice_search.js" defer></script>
+</head>
+<style>
+    .blue-color {
+        color: blue;
+    }
+
+    .green-color {
+        color: green;
+    }
+
+    .teal-color {
+        color: teal;
+    }
+
+    .yellow-color {
+        color: yellow;
+    }
+
+    .red-color {
+        color: red;
+    }
+</style>
+
+<body style="background-color:grey;">
+	<br><h1 style="color:Orange;text-align:center;"> Thomson Reuters Hackathon 2021 </h1><br>
+	<img src="Octopus - Logo.jpg" alt="HackathonLogo" width="300" height="350" class="center"><br>
+	<h1 style="color:orange;text-align:center;"> TR Voice search </h1>
+    <div class="container"></div>
+    <form action="https://b1koors0zj.execute-api.eu-west-1.amazonaws.com/test/voice?" method="get" id="search-form" target="_blank">
+        <input type="text" name="q" placeholder="Search TR..." autocomplete="off" autofocus>
+        <!--<button type="submit"><i class="fas fa-microphone"></i></button>-->
+        <!--<button type="submit"><i class="fa fa-search"></i></button>-->
+</body>
+
+</html>
